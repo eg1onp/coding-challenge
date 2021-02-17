@@ -1,0 +1,76 @@
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+  margin-top: 8%;
+}
+
+header > span, nav {
+  text-align: center;
+}
+
+img, span {
+  display: block;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 11%;
+}
+header > span {
+  color: #00d221;
+  font-size: 220%;
+  font-family: Verdana, sans-serif;
+  margin-top: 0.3%;
+}
+nav {
+  background: #00d221;
+  padding: 0.8%;
+  margin-top: 0.3%;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+button {
+  font-size: 120%;
+}
+.modelli {
+  margin-left: 24%;
+}
+input, h2{
+  display: inline-block;
+}
+h2 {
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 170%;
+  margin-top: 1.5%;
+  margin-bottom: 0.3%;
+}
+div > span {
+  color: white;
+  font-size: 160%;
+}
+.arrow::before {
+  content: "\21A6"
+}
+div > div {
+  margin-top: 0.1%;
+  padding: 1%;
+  margin-right: 73.5%;
+  border: 2px solid;
+  border-radius: 8px;
+}
+.carica-media {
+  background-color: #ffa500;
+  border: #ffa500;
+  margin-right: 76%;
+}
+.carica-alta {
+  background-color: #00bb2d;
+  border-color: #00bb2d;
+  margin-right: 59%;
+}
+.carica-bassa {
+  background-color: #ff2828;
+  border: #ff2828;
+  margin-right: 89.5%;
+}
